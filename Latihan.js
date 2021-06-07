@@ -10,8 +10,8 @@ const profile = {
 const {firstName, lastName, age};
 
 /* Code Destructuring Assignment*/
-let firstName: "Udin"
-let age: "24"
+let firstName = "Orang"
+let age = 20
 
 ({firstName,age} = profile);
 

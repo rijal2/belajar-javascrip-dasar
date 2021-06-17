@@ -42,3 +42,5 @@ var mantap2 = mantap.slice(2,5)
 mantap2.push("di sawah")
 console.log(mantap)
 console.log(mantap2.join("-"))
+
+

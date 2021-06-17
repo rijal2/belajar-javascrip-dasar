@@ -22,4 +22,4 @@ function colek () {
     return hasil;
 }
 
-alert(colek(1,2,3,8))
+alert(colek(1,2,3,8));

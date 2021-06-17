@@ -10,4 +10,4 @@ for (var i = 10; i > 0; i--) {
     x += "\n";
 }
 
-console.log(k);
+console.log(x);

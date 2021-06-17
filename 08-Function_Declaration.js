@@ -2,7 +2,6 @@
 
 function jmlVol(a,b){
     var volume1, volume2;
-
     volume1 = a * a * a
     volume2 = b * b * b
     total = volume1 + volume2
@@ -10,4 +9,4 @@ function jmlVol(a,b){
     return total
 }
 
-console.log(jmlVol(3,4));
+alert("Hasil penjumlahan volume dua kubus adalah " + jmlVol(3,4));

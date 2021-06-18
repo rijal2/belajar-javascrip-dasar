@@ -10,7 +10,7 @@ obj.halo = function(){
 }
 // Cara memanggilnya
 obj.halo();
-// 
+// This ini mengembalikan object yang bersangkutan.
 
 // Cara Kedua -Menggunakan function declaration
 
@@ -22,3 +22,13 @@ function cek (){
 this.cek();
 // this ini mengembalikan object global
 
+// Cara Ketiga - Menggunakan Constructor
+
+function Halu(){
+    console.log(this);
+    console.log("Haluuu")
+}
+// Cara memanggil
+new Halu();
+
+// this inimengembalikan object yang baru dibuat.
